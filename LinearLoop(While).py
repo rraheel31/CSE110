@@ -1,3 +1,18 @@
+#==============# Problem:
+"""
+A group of astronauts established a space colony on Mars in 1999.
+Due to the harsh conditions, they must import essential supplies from Earth.
+The cost of these supplies has increased each month due to inflation and
+rising transportation expenses. The price of oxygen cylinders has increased
+by p% each month based on the previous month's price. The price of water
+reserves has increased by q% each month based on the previous month's price.
+Write a program that takes as input the price of an oxygen cylinder and a unit
+of water reserve in 1999, along with the values of p and q.
+The program should then calculate and print the current price
+of both items and determine which item's price has increased more in total over these years.
+"""
+#==============# Solution:
+
 from datetime import datetime as dt
 import math
 
